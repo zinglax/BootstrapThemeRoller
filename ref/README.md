@@ -22,3 +22,10 @@
 <link href="//cdn.quilljs.com/1.2.0/quill.core.css" rel="stylesheet">
 <script src="//cdn.quilljs.com/1.2.0/quill.core.js"></script>
 ```
+
+
+[CSS PROPERTIES JSON FIDDLE](https://jsfiddle.net/zinglax/wpf5hsat/)
+
+[HTML TAGS JSON FIDDLE](https://jsfiddle.net/zinglax/mngsq8am/)
+
+[JQUERY COLOR REPLACER WIDGET](https://jsfiddle.net/zinglax/rnfrnvej/)
