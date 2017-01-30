@@ -1,4 +1,4 @@
-{"name" : "align-content", "info": ""},
+[{"name" : "align-content", "info": ""},
 {"name" : "align-items", "info": ""},
 {"name" : "align-self", "info": ""},
 {"name" : "all", "info": ""},
@@ -177,4 +177,5 @@
 {"name" : "word-break", "info": ""},
 {"name" : "word-spacing", "info": ""},
 {"name" : "word-wrap", "info": ""},
-{"name" : "z-index", "info": ""},
+{"name" : "z-index", "info": ""}
+]

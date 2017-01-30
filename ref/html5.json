@@ -1,4 +1,4 @@
-{"name" : "!--...--", "info": ""},
+[{"name" : "!--...--", "info": ""},
 {"name" : "!DOCTYPE", "info": ""},
 {"name" : "a", "info": ""},
 {"name" : "abbr", "info": ""},
@@ -116,4 +116,5 @@
 {"name" : "ul", "info": ""},
 {"name" : "var", "info": ""},
 {"name" : "video", "info": ""},
-{"name" : "wbr", "info": ""},
+{"name" : "wbr", "info": ""}
+]
