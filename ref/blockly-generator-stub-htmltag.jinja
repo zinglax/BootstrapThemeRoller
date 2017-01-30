@@ -1,0 +1,11 @@
+
+/**
+ * BLOCKLY GENERATOR STUB: HTML TAG - <{{ tag.name }}>
+ * @param  {[type]} block [description]
+ * @return {[String]}       [<{{ tag.name }}> innerHTML </{{ tag.name }}>]
+ */
+Blockly.JavaScript["html"] = function(block) {
+    var statements_innerhtml = Blockly.JavaScript.statementToCode(block, "innerHtml");
+    var code = "<html>" + statements_innerhtml + "</html>\n";
+    return code;
+};

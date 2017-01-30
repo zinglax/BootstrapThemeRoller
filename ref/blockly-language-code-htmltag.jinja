@@ -1,0 +1,17 @@
+
+/**
+ * BLOCKLY LANGUAGE CODE: HTML TAG - <{{ tag.name }}>
+ */
+Blockly.Blocks["{{ tag.name }}"] = {  init: function() {
+    this.appendDummyInput()
+    
+    .appendField("+{{ tag.name }}");
+    this.appendStatementInput("innerHtml")
+    
+    .setCheck(null);
+    this.appendDummyInput()
+    
+    .appendField("{{ tag.name }}");
+    this.setColour(65);
+    this.setTooltip("{{ tag.info }}");
+    this.setHelpUrl("/ref/{{ tag.name }}");  }}; 
