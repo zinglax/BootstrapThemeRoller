@@ -1,11 +1,13 @@
 
+
 /**
- * BLOCKLY GENERATOR STUB: HTML TAG - <{{ tag.name }}>
+ * BLOCKLY GENERATOR STUB: HTML TAG - {{ tag.name }}
  * @param  {[type]} block [description]
- * @return {[String]}       [<{{ tag.name }}> innerHTML </{{ tag.name }}>]
+ * @return {[String]}       [{{ tag.name }} innerHTML {{ tag.name }}]
  */
-Blockly.JavaScript["html"] = function(block) {
-    var statements_innerhtml = Blockly.JavaScript.statementToCode(block, "innerHtml");
-    var code = "<html>" + statements_innerhtml + "</html>\n";
+Blockly.Python['{{ tag.name }}'] = function(block) {
+    var statements_innerhtml = Blockly.Python.statementToCode(block, 'innerHtml');
+    var code = '{{ tag.name }}' + statements_innerhtml + '{{ tag.name }}\n';
     return code;
-};
+}
+

@@ -1,17 +1,21 @@
 
+
 /**
- * BLOCKLY LANGUAGE CODE: HTML TAG - <{{ tag.name }}>
+ * BLOCKLY LANGUAGE CODE: HTML TAG - {{ tag.name }}
  */
-Blockly.Blocks["{{ tag.name }}"] = {  init: function() {
+Blockly.Blocks['{{ tag.name }}'] = {
+  init: function() {
     this.appendDummyInput()
-    
-    .appendField("+{{ tag.name }}");
+        .appendField('+{{ tag.name }}');
     this.appendStatementInput("innerHtml")
-    
-    .setCheck(null);
+        .setCheck(null);
     this.appendDummyInput()
-    
-    .appendField("{{ tag.name }}");
+        .appendField('-{{ tag.name }}');
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
     this.setColour(65);
-    this.setTooltip("{{ tag.info }}");
-    this.setHelpUrl("/ref/{{ tag.name }}");  }}; 
+    this.setTooltip('{{ tag.info }}');
+    this.setHelpUrl('/ref/{{ tag.name }}');
+  }
+};
+
